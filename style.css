@@ -1,0 +1,36 @@
+body{
+    background-image: linear-gradient(#003834,#07C09B,#07C09B);
+    height:1000px;
+    color:white;
+    font-family: 'Anonymous Pro', monospace;
+}
+header{
+    background-color:#003834;
+    overflow:hidden;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+header ul a{
+    list-style-type: none;
+    float:right;
+    margin: 0 1rem 1rem 1rem;
+    
+}
+main{
+    margin-top:6rem;
+}
+
+.name{
+    color:#07C09B;
+}
+.career{
+    font-family: "anton";
+    letter-spacing:0.5rem;
+    font-weight: 300;
+}
